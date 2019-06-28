@@ -1,0 +1,95 @@
+.navbar-brand{
+    margin-left: 1%;
+    margin-right: auto;
+}
+.navbar-nav{
+    
+    background-color: inherit;
+}
+.navbar{
+    padding: 0 !important
+}
+.header-wrapper{
+    height: 900px;
+    position: relative;
+    z-index: 6;
+}
+.navbar-toggler {
+    margin-left:43%;
+}
+.navigation {
+    padding: 40px 0;
+
+}
+.nav-link{
+    color: white !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    font-size: 14px;
+
+}
+.header-txt{
+    padding-top: 80px; 
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+.amelden{
+    background-color: red;
+    border-radius: 50px;
+}
+@media only screen and (max-width:766px){
+    .navbar-wrapper{
+        padding: 0px !important;
+    }
+    .navbar-expand-md{
+    background-color: red;
+    }
+}
+.svg-inline--fa path{
+    fill: white !important;
+}
+.svg-inline--fa{
+    width: 32px !important;
+}
+.header-form{
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    padding: 35px 40px;
+}
+.header-form ul{
+    list-style: none;
+    color: white;
+    padding: 0;
+}
+.header-form ul li {
+    display: flex;
+    flex-direction: row;
+}
+.header-form ul li p{
+    padding-left: 20px;
+}
+.header-form input{
+    height: 50px;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    border: 0px;
+    margin-bottom: 15px;
+    padding: 0 20px ;
+}
+.submit-button{
+    background-color: red;
+    color: white;
+}
+.text-desc{
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 25px;
+}
+.header-content{
+    padding-top: 20px;
+}
