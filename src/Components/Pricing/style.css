@@ -1,11 +1,15 @@
 @media only screen and (max-width:766px){
-    .pricing-heading{margin-top: 800px !important;} 
+    .pricing-heading-sm{margin-top: 850px !important;} 
 }
 
 .grey-color{
     color: #a9a9a9;    
 }
+#pricing{
+    margin-top: 90px !important;
+}
 .pricing-heading{
+    margin-top: 80px ;
     color: #202020;
     font-weight: 600;
     margin: 0px;

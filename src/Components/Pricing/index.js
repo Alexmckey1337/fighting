@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStreetView } from '@fortawesome/free-solid-svg-icons'
 const Pricing = () => {
     return(
-        <Container >
-            <h2 className='pricing-heading'>
+        <Container id='pricing'>
+            <h2 className='pricing-heading pricing-heading-sm'>
                 Preise und Inhalte
             </h2>
             <p className='grey-color sub-heading'>Hier findest du unsere Mitgliedschaften zu fairen Preisen.</p>
