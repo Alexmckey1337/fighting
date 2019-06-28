@@ -6,6 +6,7 @@ import {Fragment} from 'react'
 import Testimonials from './Components/Testimonials';
 import Pricing from './Components/Pricing';
 import FAQ from './Components/FAQ';
+import Footer from './Components/Footer';
 
 class App extends React.Component{
     render(){
@@ -16,6 +17,7 @@ class App extends React.Component{
             <Testimonials />
             <Pricing />
             <FAQ />
+            <Footer />
            </Fragment>
         )
     }

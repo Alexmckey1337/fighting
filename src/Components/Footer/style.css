@@ -1,0 +1,80 @@
+.footer-wrapper{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    background-image: url(http://fighter.pcnerd.de/wp-content/uploads/2018/11/black-and-white-sport-fight-boxer.jpg?id=253) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.footer-wrapper h1{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.footer-submit-button{
+    margin-bottom: 100px !important;
+}
+.footer-form-wrapper{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.footer-pane h2{
+    font-size: 24px;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.footer-pane p {
+    padding-bottom: 25px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: left;
+}
+.footer-buttons{
+    background-color: black;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+   
+}
+.white-text{
+    color: white
+}
+.copyright{
+    float: left;
+    padding: 16px 0px;
+    margin: 0px;
+    color:white;
+    margin-left: 75px;
+}
+.copyrights-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.socials{
+    float:right;
+    margin-right: 75px;
+}
+.socials a{
+    float: left;
+    width: 42px;
+    height: 42px;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 42px;
+    text-align: center;
+    background-color: #DDD;
+    margin: 7px 0px 7px 14px;
+    border-radius: 50%;
+}
+.link-facebook{background-color: #3b589e !important;}
+.link-twitter{background-color: #5ea9dd !important;}
+.link-instagram{background-color: #DDD !important;}
+.link-instagram path{fill: white !important;}
+
+.socials a:hover{
+    background-color: rgb(44, 43, 43) !important;
+}
