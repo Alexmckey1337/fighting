@@ -5,7 +5,7 @@ import {Fragment} from 'react'
 import whitelogo from '../Home/Header/img/logo.png'
 import blacklogo from '../Home/Header/img/coachcombat_logo.png'
 import PriceHeader from './PriceHeader';
-import FAQ from '../Home/FAQ';
+import PreiseFAQ from './PreiseFAQ';
 class Preise extends React.Component {
     
 componentDidMount() {
@@ -44,7 +44,7 @@ render(){
         <Fragment>
             <PriceHeader />
             <Pricing />
-            <FAQ />
+            <PreiseFAQ />
             <Footer />
         </Fragment>
     )

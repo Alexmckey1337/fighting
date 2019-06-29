@@ -11,7 +11,7 @@ class Trainers extends React.Component{
     return(
         <Fragment>
             <Container className='trainers-wrapper'>
-                <Row className='trainers-item'>
+                <Row className='trainers-item wow fadeInLeft'>
                     <Col md='8' sm='12'>
                         <h2>Aristo Luis - Kickboxen / K1</h2>
                         <p>Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
@@ -24,7 +24,7 @@ class Trainers extends React.Component{
                         <img src={TrainerPic}/>
                     </Col>
                 </Row>
-                <Row className='trainers-item trainers-item-even'>
+                <Row className='trainers-item trainers-item-even wow fadeInRight'>
                     <Col md='4' sm='12' className='trainers-picture'>
                         <img src={TrainerPic}/>
                     </Col>
@@ -37,7 +37,7 @@ class Trainers extends React.Component{
                         </div>
                     </Col>
                 </Row>   
-                <Row className='trainers-item'>
+                <Row className='trainers-item wow fadeInLeft'>
                     <Col md='8' sm='12'>
                         <h2>Aristo Luis - Kickboxen / K1</h2>
                         <p>Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
@@ -50,7 +50,7 @@ class Trainers extends React.Component{
                         <img src={TrainerPic}/>
                     </Col>
                 </Row>
-                <Row className='trainers-item trainers-item-even'>
+                <Row className='trainers-item trainers-item-even wow fadeInRight'>
                     <Col md='4' sm='12' className='trainers-picture'>
                         <img src={TrainerPic}/>
                     </Col>

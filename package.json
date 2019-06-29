@@ -18,7 +18,8 @@
     "react-slick": "^0.24.0",
     "react-video-cover": "^1.2.2",
     "react-youtube-background": "^0.1.4",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "wow.js": "^1.2.2"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -29,7 +29,7 @@ const Pricing = () => {
                     <li>1 Jahr Mitgliedschaft </li>
                 </ul> 
                 <div className="pricing-button-wrapper">
-                <a href="http://fighter.pcnerd.de/preise/" class="pricing-button">Mehr Informationen</a>
+                <a href="/preise" class="pricing-button">Mehr Informationen</a>
                 </div>
                 </Col>
                 <Col lg={4} md={12} sm={12} className='pricing-item'>
@@ -52,7 +52,7 @@ const Pricing = () => {
                     <li>Unbegrenzte Mitgliedschaft</li>
                 </ul> 
                 <div className="pricing-button-wrapper">
-                <a href="http://fighter.pcnerd.de/preise/" class="pricing-button">Mehr Informationen</a>
+                <a href="/preise" class="pricing-button">Mehr Informationen</a>
                 </div>
                 </Col>
                 <Col lg={4} md={12} sm={12} className='pricing-item'>
@@ -72,12 +72,12 @@ const Pricing = () => {
                     <li>Mitgliedschaft</li>
                 </ul> 
                 <div className="pricing-button-wrapper">
-                <a href="http://fighter.pcnerd.de/preise/" class="pricing-button">Mehr Informationen</a>
+                <a href="/preise" class="pricing-button">Mehr Informationen</a>
                 </div>
                 </Col>
             </Row>
             <Row className='low-button-wrapper'>
-            <a className="lowest-pricing-button" href="http://fighter.pcnerd.de/preise/" ><FontAwesomeIcon icon={faStreetView}/> Mehr über unsere Preise</a>
+            <a className="lowest-pricing-button" href="/preise" ><FontAwesomeIcon icon={faStreetView}/> Mehr über unsere Preise</a>
             </Row>
         </Container>
     )

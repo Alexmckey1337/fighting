@@ -4,8 +4,13 @@ import {BrowserRouter,Route,Link} from 'react-router-dom'
 import Home from './Components/Home'
 import Preise from './Components/Preise'
 import Kurse from './Components/Kurse';
+import WOW from "wow.js";
 
 class App extends React.Component{
+    componentDidMount() {
+        const wow = new WOW
+        wow.init();
+    }
     render(){
         return(
             <BrowserRouter>

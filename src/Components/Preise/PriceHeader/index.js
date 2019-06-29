@@ -7,7 +7,7 @@ const PriceHeader = () =>{
         
         <Container className='price-header' fluid='true'>
             <Navigation />
-            <Row>
+            <Row className='wow fadeIn'>
                 <Col md={{span:4,offset:1}}>
                 <h2 className='price-header-heading'>UNSERE PREISE</h2>
                 </Col>

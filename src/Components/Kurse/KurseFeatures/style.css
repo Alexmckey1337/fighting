@@ -1,3 +1,10 @@
+@media only screen and (max-width:766px){
+.kurse-features-post{
+    margin-left: 10px !important;
+    margin-top: 20px;
+}
+}
+
 .kurse-features-post{
     margin-left: 150px; 
     padding-bottom: 20px;
@@ -12,6 +19,7 @@
     color: #ea3535
 }
 .kurse-features-heading{
+    
     font-family: Poppins, Arial, sans-serif;
     color: #a9a9a9;
     font-size: 18px;
@@ -57,4 +65,7 @@
     font-weight: 500;
     margin: 0px;
     margin-bottom: 5px;
+}
+.kurse-features-second-row{
+    margin-bottom: 25px;
 }

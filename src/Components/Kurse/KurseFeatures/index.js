@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Row,Col} from 'react-bootstrap'
+import {Container, Row,Col,Image} from 'react-bootstrap'
 import fourthimg from './4.jpeg'
 import thirdimg  from './3.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -10,10 +10,10 @@ const KurseFeatures = () =>{
     return(
         <Container>
             <Row className='post '>
-                <Col sm={12} md={5}>
-                    <img className='fourthimg' src={fourthimg} />
+                <Col sm={12} md={5} className='wow fadeIn'>
+                    <Image className='fourthimg' src={fourthimg} fluid/>
                 </Col>
-                <Col className='kurse-features-post' sm={12} md={{span:5,offset:1}}>
+                <Col className='kurse-features-post wow fadeIn' sm={12} md={{span:5,offset:1}}>
                     <p className='kurse-features-heading'>
                         Jetzt kannst du noch besser lernen
                     </p>
@@ -43,8 +43,8 @@ const KurseFeatures = () =>{
                     </ul>
                 </Col>
             </Row>
-            <Row className='post'>
-                <Col sm={12} md={6} className='kurse-features-second-post'>
+            <Row className='post kurse-features-second-row'> 
+                <Col sm={12} md={6} className='kurse-features-second-post wow fadeIn'>
                     <h2>
                         <strong>Erreiche deine Ziele</strong>, wir helfen dir!
                     </h2>
@@ -87,8 +87,8 @@ const KurseFeatures = () =>{
                         </Col>
                     </Row>
                 </Col>
-                <Col sm={12} md={6}>
-                    <img className='fourthimg' src={thirdimg} />
+                <Col sm={12} md={6} className='wow fadeIn'>
+                    <Image className='fourthimg' src={thirdimg} fluid/>
                 </Col>
             </Row>
         </Container>

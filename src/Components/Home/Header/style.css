@@ -20,7 +20,7 @@ html{
     margin-left:43%;
 }
 .navigation {
-    padding: 40px 0;
+    padding: 40px 20px;
 
 }
 .header-content-wrapper-row{
@@ -53,6 +53,16 @@ html{
     }
     .navbar-expand-md{
     background-color: red;
+    }
+    .fixed-navbar{
+        position: fixed !important;
+        background-color:rgba(255,0,0,.95) !important;
+        box-shadow:0px 1px 6px 0px rgba(0,0,0,.12);
+        top :0px;
+        right:8px !important;
+        height: 60px;
+        width: 100vw;
+        z-index: 100;
     }
 }
 .top-slider-img{
@@ -106,7 +116,7 @@ html{
     padding-top: 20px;
 }
 .youtubePopup{
-    margin-left: 39%;
+    margin-left: 38%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,6 +130,10 @@ html{
 }
 .youtubePopup svg{
     margin-left: 10px;
+}
+.modal{
+        left: unset;
+        right: 125px !important;
 }
 .modal-content{
     display: flex;

@@ -15,9 +15,9 @@ const Testimonials = () => {
         slidesToScroll: 1
     }
     return(
-        <div className="testimonials-wrapper">
+        <div className="testimonials-wrapper wow fadeIn">
         <a name='testimonials' />
-        <Row className='icon-wrapper'>
+        <Row className='icon-wrapper '>
             <FontAwesomeIcon className='faicon' icon={faQuoteLeft} size='8x'/>
         </Row>
         <Slider className='slider' {...settings}>
@@ -44,25 +44,25 @@ const Testimonials = () => {
       <div className='bg'>
       <Container>
       <Row className='statistics'>
-          <Col sm={12} md={3}>
+          <Col sm={12} md={3} className='wow fadeInLeft' data-wow-delay='0.4s'>
           <FontAwesomeIcon className='bottom-faicon' icon={faSmile} size='8x'/>
           <h4>3784</h4>
           <p>Mitglieder</p>
           </Col>
-          <Col sm={12} md={3}>
+          <Col sm={12} md={3} className='wow fadeInLeft' data-wow-delay='1.2s'>
           <FontAwesomeIcon className='bottom-faicon' icon={faUser} size='8x'/>
-          <h4>3784</h4>
-          <p>Mitglieder</p>
+          <h4>43</h4>
+          <p>Live-Trainings</p>
           </Col>          
-          <Col sm={12} md={3}>
+          <Col sm={12} md={3} className='wow fadeInRight' data-wow-delay='1.6s'>
           <FontAwesomeIcon className='bottom-faicon' icon={faCubes} size='8x'/>
-          <h4>3784</h4>
-          <p>Mitglieder</p>
+          <h4>13</h4>
+          <p>Kurse</p>
           </Col>          
-          <Col sm={12} md={3}>
+          <Col sm={12} md={3} className='wow fadeInRight' data-wow-delay='0.8s'>
           <FontAwesomeIcon className='bottom-faicon' icon={faChild} size='8x'/>
-          <h4>3784</h4>
-          <p>Mitglieder</p>
+          <h4>6</h4>
+          <p>Trainer</p>
           </Col>
       </Row>
       </Container>

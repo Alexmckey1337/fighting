@@ -1,13 +1,10 @@
 import React from 'react'
 import {Container,Col,Row} from 'react-bootstrap'
-import './style.css'
-const FAQ = () =>{
+const PreiseFAQ = () =>{
     return(
         <Container fluid='true' className='faq'>
-            <div className="wow fadeIn">
-            <h2 className='faq-heading faq-heading-sm'>Häufige Fragen</h2>
-            <p className='faq-subheading'>Gibt es Fragen? Wir haben die besten Antworten für Sie.</p>
-            </div>
+            <h2 className='faq-heading wow fadeIn'>Häufige Fragen</h2>
+            <p className='faq-subheading wow fadeIn'>Gibt es Fragen? Wir haben die besten Antworten für Sie.</p>
             <Row className='wow fadeIn' data-wow-delay='0.4s'>
                 <Col className='faq-item' sm={12} md={{span:5,offset:1}}>
                     <h4>Wie kann ich am Live-Training teilnehmen?</h4>
@@ -45,4 +42,4 @@ const FAQ = () =>{
     )
 }
 
-export default FAQ
+export default PreiseFAQ

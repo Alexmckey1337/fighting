@@ -2,12 +2,14 @@
     height: 530px;
     background-image: url(./black-and-white-people-bar-men.jpg) !important;
     background-size: cover;
+    padding: 0 0px;
 }
 .kurse-header .row .col-md-4{
     margin-top: 100px;
 }
 
 .kurse-header-heading{
+    padding: 0 10px;
     font-size: 42px;
     color: #fff;
     font-weight: 600;

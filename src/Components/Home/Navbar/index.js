@@ -8,9 +8,9 @@ const Navigation = () =>{
             <Navbar.Collapse>
             <Navbar.Brand href="#home"><img className='logotype' src={whitelogo} alt="logo" border="0" height='60px'/></Navbar.Brand>
             <Nav className="navigation">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/kurse">Testimonials</Nav.Link>
-                <Nav.Link href="/preise">Pricing</Nav.Link>
+                <Nav.Link href="/">Startseite</Nav.Link>
+                <Nav.Link href="/kurse">Kurse & Trainer</Nav.Link>
+                <Nav.Link href="/preise">Preise</Nav.Link>
                 <Nav.Link href="#" className='amelden'>Amelden</Nav.Link>
             </Nav>
             </Navbar.Collapse>

@@ -8,7 +8,7 @@ import { faFacebook ,faTwitter,faInstagram} from "@fortawesome/free-brands-svg-i
 const Footer = () =>{
     return(
         <Fragment>
-        <Container className='footer-wrapper' fluid={true}>
+        <Container className='footer-wrapper wow fadeIn' fluid={true}>
             <h1 className='footer-heading'>Jetzt gratis Training starten!</h1>
             <div className="footer-form-wrapper">
             <Col sm={12} md={{span:6,offset:3}} className='header-form footer-form'>
@@ -22,7 +22,7 @@ const Footer = () =>{
             </Col>
             </div>
         </Container>
-        <Container className='footer-buttons' fluid={true}>
+        <Container className='footer-buttons wow fadeIn' fluid={true}>
             <Row>
                 <Col sm={12} md={{span:5,offset:1}} className='footer-pane'>
                     <h2>Fighter Academy</h2>

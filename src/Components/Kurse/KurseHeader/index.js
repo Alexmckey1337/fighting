@@ -7,9 +7,9 @@ const KurseHeader = () =>{
         
         <Container className='kurse-header' fluid='true'>    
            <Navigation />
-            <Row>
+            <Row className='wow fadeIn'>
                 <Col md={{span:4,offset:1}}>
-                <h2 className='kurse-header-heading'>UNSERE PREISE</h2>
+                <h2 className='kurse-header-heading'>ALLE KURSE UND TRAINER</h2>
                 </Col>
                 
             </Row>

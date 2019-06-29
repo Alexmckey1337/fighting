@@ -76,7 +76,7 @@ class Header extends React.Component{
         </Container>
         <Container className='header-content'>
         <Row className='header-content-wrapper-row'>
-            <Col sm={12} md={6} className='left-pane'>
+        <Col sm={12} md={6} className='left-pane  wow fadeInLeft'>
             <a name='home'/>
         <Slider className='slider' {...settings}>
         <div>
@@ -99,7 +99,7 @@ class Header extends React.Component{
             <FontAwesomeIcon icon={faPlay} size='4x'/>
         </div>
             </Col>
-            <Col sm={12} md={6} className='header-form'>
+            <Col sm={12} md={6} className='header-form  wow fadeInLeft'>
                 <ul>
                     <li> 
                         <FontAwesomeIcon className='faicon' icon={faLaptop} size='2x'/> 
