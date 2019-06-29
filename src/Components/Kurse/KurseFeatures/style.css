@@ -1,0 +1,60 @@
+.kurse-features-post{
+    margin-left: 150px; 
+    padding-bottom: 20px;
+}
+.kurse-features-post h2{
+    font-size: 30px;
+    line-height: 38px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.kurse-features-post h2 strong {
+    color: #ea3535
+}
+.kurse-features-heading{
+    font-family: Poppins, Arial, sans-serif;
+    color: #a9a9a9;
+    font-size: 18px;
+    margin: 0px 0px 7px;
+}
+.kurse-features-subheading{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.kurse-features-post ul{
+    padding: 0px
+}
+.kurse-features-post ul li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    position: relative;
+    font-size: 16px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    
+}
+.kurse-features-post ul li svg {
+    width: 16px !important;
+    margin-right: 16px;
+
+}
+.kurse-features-post ul li svg path{
+    fill: #ea3535 !important;
+}
+.kurse-features-second-post {
+    padding-bottom: 50px;
+}
+.kurse-features-second-post .post-subheading{
+    margin: 15px 0 !important;
+}
+.kurse-features-second-post strong{
+    color:#ea3535
+}
+.kurse-features-second-post h4{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 0px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,65 @@
+@media screen and (max-width:766px){
+    .trainers-item-even {
+        flex-direction: column-reverse !important;
+    }
+}
+
+.trainers-item-even {
+   
+}
+.trainers-wrapper{
+    padding-top: 100px;
+}
+.trainers-item{
+    
+    margin-bottom: 20px;
+}
+
+.trainers-item h2 {
+    margin-bottom: 15px;
+}
+
+.trainers-item p{
+    padding-bottom: 20px;
+}
+.trainers-item-buttons-wrapper{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.trainers-item-options , .trainers-item-trailer{
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ff675b;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    position: relative;
+    transition: all .2s ease-in-out;
+    line-height: normal;
+    font-size: 14px;
+}
+.trainers-item-trailer svg path{
+    fill: white !important;
+}
+.trainers-picture {
+    text-align: center
+}
+.trainers-picture img{
+    width: 300px ;
+}

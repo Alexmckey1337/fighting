@@ -1,8 +1,6 @@
 import React,{Fragment} from 'react'
 import {Navbar,Nav} from 'react-bootstrap'
-import {Container, Row,Col} from 'react-bootstrap'
 import whitelogo from '../Header/img/logo.png'
-import blacklogo from '../Header/img/coachcombat_logo.png'
 const Navigation = () =>{
     return(
         <Fragment>

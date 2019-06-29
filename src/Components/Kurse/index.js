@@ -1,18 +1,53 @@
 import React from 'react'
-import { Navbar } from 'react-bootstrap';
 import Footer from '../Home/Footer';
-import Testimonials from '../Home/Testimonials'
 import {Fragment} from 'react'
-import KurseHeader from './KurseHeader';
-const Preise = () =>{
+import KurseHeader from './KurseHeader'
+import Trainers from './Trainers';
+import whitelogo from '../Home/Header/img/logo.png'
+import blacklogo from '../Home/Header/img/coachcombat_logo.png'
+import KurseFeatures from './KurseFeatures';
+
+class Kurse extends React.Component{
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
+      }
+    
+componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScroll);
+      }
+
+handleScroll(){
+        if(window.innerWidth>767){
+        const el = document.getElementById('navbar')
+        const buttons = document.querySelectorAll('.nav-link')
+        const logo = document.querySelector('.logotype')
+        const offset = window.pageYOffset
+        if (offset > 0){
+          logo.src = blacklogo
+          el.classList.add('fixed-navbar')
+          buttons.forEach(e=>{
+              e.classList.add('fixed-buttons')
+          })
+        }else{
+            logo.src = whitelogo
+            el.classList.remove('fixed-navbar')
+            buttons.forEach(e=>{
+              e.classList.remove('fixed-buttons')
+          })
+        }
+      }  
+    } 
+
+    render(){
     return(
         <Fragment>
-            <Navbar />
             <KurseHeader />
-            <Testimonials />
+            <Trainers />
+            <KurseFeatures />
             <Footer />
         </Fragment>
     )
 }
+}
 
-export default Preise
+export default Kurse

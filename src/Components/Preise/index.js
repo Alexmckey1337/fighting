@@ -2,7 +2,6 @@ import React from 'react'
 import Footer from '../Home/Footer';
 import Pricing from '../Home/Pricing';
 import {Fragment} from 'react'
-import Navigation from '../Home/Navbar';
 import whitelogo from '../Home/Header/img/logo.png'
 import blacklogo from '../Home/Header/img/coachcombat_logo.png'
 import PriceHeader from './PriceHeader';
