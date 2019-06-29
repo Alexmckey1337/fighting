@@ -1,5 +1,5 @@
 @media only screen and (max-width:766px){
-    .pricing-heading-sm{margin-top: 850px !important;} 
+    .pricing-heading-sm{margin-top: 85px !important;} 
 }
 
 .grey-color{
@@ -119,6 +119,7 @@
     border-radius: 4px 4px 0px 0px;
 }
 .lowest-pricing-button{
+    margin-left: 30px;
     border-radius: 5px;
     color: #ffffff;
     border: none;
@@ -142,5 +143,5 @@
     margin-bottom: 21.73913043px;
     max-width: 100%;
     text-align: center;
-
+    margin-bottom: 45px;
 }

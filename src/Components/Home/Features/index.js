@@ -14,6 +14,7 @@ const Features = () =>{
             <h2 className='heading'>Das erwartet dich</h2>
             <p className='heading-desc'>Wir bringen dich auf den richtigen Weg, egal ob Anfänger oder Meister!</p>
             <Container>
+            <a name='features'/>    
             <Row className='threeimages'>
                 <Col sm={12} md={4}>
                     <img className='featured-img' src={firstimg}/> 

@@ -1,0 +1,13 @@
+.price-header {
+    height: 530px;
+    background-image: url(./black-and-white-sport-fight-boxer.jpg) !important;
+    
+}
+
+.price-header-heading{
+    font-size: 42px;
+    margin-bottom: 200px;
+    color: #fff;
+    font-weight: 600;
+
+}

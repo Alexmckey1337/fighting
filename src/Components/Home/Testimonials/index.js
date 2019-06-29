@@ -16,6 +16,7 @@ const Testimonials = () => {
     }
     return(
         <div className="testimonials-wrapper">
+        <a name='testimonials' />
         <Row className='icon-wrapper'>
             <FontAwesomeIcon className='faicon' icon={faQuoteLeft} size='8x'/>
         </Row>

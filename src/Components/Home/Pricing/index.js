@@ -11,6 +11,7 @@ const Pricing = () => {
             </h2>
             <p className='grey-color sub-heading'>Hier findest du unsere Mitgliedschaften zu fairen Preisen.</p>
             <Row className='pricing'>
+                <a name='Pricing' />
                 <Col lg={4} md={12} sm={12}className='pricing-item'>
                 <div className="pricing-header-wrapper">
                     <h4>MITGLIED</h4>
