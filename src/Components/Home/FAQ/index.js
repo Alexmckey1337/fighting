@@ -3,7 +3,8 @@ import {Container,Col,Row} from 'react-bootstrap'
 import './style.css'
 const FAQ = () =>{
     return(
-        <Container fluid='true' className='faq'>
+        <Container fluid={true}>
+        <Container className='faq'>
             <div className="wow fadeIn">
             <h2 className='faq-heading faq-heading-sm'>Häufige Fragen</h2>
             <p className='faq-subheading'>Gibt es Fragen? Wir haben die besten Antworten für Sie.</p>
@@ -41,6 +42,7 @@ const FAQ = () =>{
             <h3 className='wow lightSpeedIn'>
             <a href="https://twitter.com/envato" target=" _blank" title="envato"><strong>Du hast noch Fragen?</strong> Dann schreib uns doch einfach</a>
             </h3>
+        </Container>
         </Container>
     )
 }

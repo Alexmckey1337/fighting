@@ -39,15 +39,15 @@ class Header extends React.Component{
           if (offset > 0){
             logo.src = blacklogo
             el.classList.add('fixed-navbar')
-            buttons.forEach(e=>{
-                e.classList.add('fixed-buttons')
-            })
+            for(let i = 0;i<buttons.length-1;i++){
+              buttons[i].classList.add('fixed-buttons')
+            }
           }else{
               logo.src = whitelogo
               el.classList.remove('fixed-navbar')
-              buttons.forEach(e=>{
-                e.classList.remove('fixed-buttons')
-            })
+              for(let i = 0;i<buttons.length;i++){
+                buttons[i].classList.remove('fixed-buttons')
+              }
           }
         }  
       }
@@ -71,7 +71,7 @@ class Header extends React.Component{
     return(
     <YoutubeBackground videoId={"I_XpaxCVTfA"}>    
     <div className='header-wrapper'>
-        <Container fluid={true} className='navbar-wrapper'>
+        <Container className='navbar-wrapper'>
         <Navigation />
         </Container>
         <Container className='header-content'>
@@ -100,6 +100,7 @@ class Header extends React.Component{
         </div>
             </Col>
             <Col sm={12} md={6} className='header-form  wow fadeInLeft'>
+                <h2>Kampfsport lernen war noch nie so einfach!</h2>
                 <ul>
                     <li> 
                         <FontAwesomeIcon className='faicon' icon={faLaptop} size='2x'/> 

@@ -5,9 +5,13 @@ html{
     margin-left: 1%;
     margin-right: auto;
 }
+
 .navbar-nav{
     
     background-color: inherit;
+}
+.navbar-collapse{
+    max-width: 1140px !important;
 }
 .navbar{
     padding: 0 !important
@@ -65,6 +69,11 @@ html{
         z-index: 100;
     }
 }
+@media only screen and (min-width:767px){
+    #navbar{
+        justify-content: center !important;
+    }
+}
 .top-slider-img{
     height: 300px;
 }
@@ -81,6 +90,9 @@ html{
     background-color: rgba(0,0,0,.4);
     color: white;
     padding: 35px 40px;
+}
+.header-form h2{
+    text-align: center;
 }
 .header-form ul{
     list-style: none;

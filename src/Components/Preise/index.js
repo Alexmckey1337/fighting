@@ -25,19 +25,18 @@ handleScroll(){
         if (offset > 0){
           logo.src = blacklogo
           el.classList.add('fixed-navbar')
-          buttons.forEach(e=>{
-              e.classList.add('fixed-buttons')
-          })
+          for(let i = 0;i<buttons.length-1;i++){
+            buttons[i].classList.add('fixed-buttons')
+          }
         }else{
             logo.src = whitelogo
             el.classList.remove('fixed-navbar')
-            buttons.forEach(e=>{
-              e.classList.remove('fixed-buttons')
-          })
+            for(let i = 0;i<buttons.length;i++){
+              buttons[i].classList.remove('fixed-buttons')
+            }
         }
       }  
-    } 
-    
+    }
 
 render(){
     return(

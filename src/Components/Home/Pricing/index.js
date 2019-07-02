@@ -12,7 +12,7 @@ const Pricing = () => {
             <p className='grey-color sub-heading'>Hier findest du unsere Mitgliedschaften zu fairen Preisen.</p>
             <Row className='pricing'>
                 <a name='Pricing' />
-                <Col lg={4} md={12} sm={12}className='pricing-item'>
+                <Col lg={4} md={12} sm={12} className='pricing-item wow fadeInDown' data-wow-delay='0.4s'>
                 <div className="pricing-header-wrapper">
                     <h4>MITGLIED</h4>
                     <div className="pricing-bubble">
@@ -32,7 +32,7 @@ const Pricing = () => {
                 <a href="/preise" class="pricing-button">Mehr Informationen</a>
                 </div>
                 </Col>
-                <Col lg={4} md={12} sm={12} className='pricing-item'>
+                <Col lg={4} md={12} sm={12} className='pricing-item wow fadeInDown' data-wow-delay='1.2s'>
                 <div className="badge">
                 <p>EMPFOHLEN</p>
                 </div>
@@ -55,7 +55,7 @@ const Pricing = () => {
                 <a href="/preise" class="pricing-button">Mehr Informationen</a>
                 </div>
                 </Col>
-                <Col lg={4} md={12} sm={12} className='pricing-item'>
+                <Col lg={4} md={12} sm={12} className='pricing-item wow fadeInDown' data-wow-delay='0.8s'>
                 <div className="pricing-header-wrapper">
                     <h4>MITGLIED PREMIUM</h4>
                     <div className="pricing-bubble">
