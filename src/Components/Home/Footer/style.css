@@ -70,6 +70,9 @@
     margin: 7px 0px 7px 14px;
     border-radius: 50%;
 }
+.footer-links a{
+    color: white;
+}
 .link-facebook{background-color: #3b589e !important;}
 .link-twitter{background-color: #5ea9dd !important;}
 .link-instagram{background-color: #DDD !important;}

@@ -37,10 +37,10 @@ const Footer = () =>{
                     <p>E-Mail: support@fighteracademy.de</p>
                     <p>Live-Chat: chat.fighteracademy.de</p>
                 </Col>
-                <Col sm={12} md={3} className='white-text'>
+                <Col sm={12} md={3} className='white-text footer-links'>
                     <h2>Menü</h2>
-                    <p><a>Kurse und Trainer</a></p>
-                    <p><a>Preise</a></p>
+                    <p><a href='/kurse'>Kurse und Trainer</a></p>
+                    <p><a href='/preise'>Preise</a></p>
                     <p><a>Kontakt</a></p>
                     <p><a>AGB</a></p>
                     <p><a>Datenschutzbestimmung</a></p>
