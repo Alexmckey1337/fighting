@@ -1,11 +1,14 @@
 @media only screen and (max-width:766px){
-    .faq-heading-sm{margin-top: 850px !important;} 
+    .faq-heading-sm{margin-top: 950px !important;} 
+    .faq{
+        padding: 80px 10px !important;
+    }
 }
 .faq-wrapper{
     background-color: #f6f8f9;
 }
 .faq{
-    padding: 80px 0 !important;
+    padding: 80px 10px !important;
 }
 .faq-heading{
     text-align: center;

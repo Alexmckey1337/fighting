@@ -2,7 +2,7 @@ import React from 'react'
 import {Container,Col,Row} from 'react-bootstrap'
 const PreiseFAQ = () =>{
     return(
-        <Container fluid='true' className='faq'>
+        <Container className='faq'>
             <h2 className='faq-heading wow fadeIn'>Häufige Fragen</h2>
             <p className='faq-subheading wow fadeIn'>Gibt es Fragen? Wir haben die besten Antworten für Sie.</p>
             <Row className='wow fadeIn' data-wow-delay='0.4s'>

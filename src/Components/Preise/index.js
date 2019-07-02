@@ -17,6 +17,7 @@ componentWillUnmount() {
       }
 
 handleScroll(){
+        console.log(window.innerWidth)
         if(window.innerWidth>767){
         const el = document.getElementById('navbar')
         const buttons = document.querySelectorAll('.nav-link')
