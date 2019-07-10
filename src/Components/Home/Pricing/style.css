@@ -124,8 +124,6 @@
     color: #ffffff;
     border: none;
     background-color: #dd3333;
-    background-image: -webkit-linear-gradient(left, #dd3333 0%, #ff2323 50%,#dd3333 100%);
-    background-image: linear-gradient(to right, #dd3333 0%, #ff2323 50%,#dd3333 100%);
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     background-size: 200% 100%;

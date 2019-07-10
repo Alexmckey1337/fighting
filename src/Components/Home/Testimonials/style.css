@@ -68,7 +68,7 @@ justify-content: center;
 }
 .bg{
     position: relative;
-    background-image: url(http://fighter.pcnerd.de/wp-content/uploads/2018/11/pexels-photo-1253596.jpeg?id=245) !important;
+    background-image: url(./img/bg.jpeg) !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;

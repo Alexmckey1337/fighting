@@ -85,30 +85,70 @@ class Features extends React.Component{
                 </Col>
             </Row>
             <span class="separator"></span>
-            <Row className='sports'>
-                <Col sm={12} md={3} className='wow fadeIn' data-wow-delay='0.6s'>
-                    <h4>Kickboxen / K1</h4>
-                    <p className='grey-color'>
-                    Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                    </p>
+            <Row className='sports' noGutters='true'>
+                <Col sm={12} md={12} lg={3} className='wow fadeIn spin-card' data-wow-delay='0.3s'>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h4>Kickboxen / K1</h4>
+                        <p className='grey-color'>
+                        Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        </p>  
+                    </div>
+                    <div class="flip-card-back">
+                        <h4>Coming Soon</h4>
+                    </div>
+                    </div>
+                </div>
                 </Col>
-                <Col sm={12} md={3} className='wow fadeIn' data-wow-delay='1s'>
-                    <h4>Selbstverteidigung</h4>
-                    <p className='grey-color'>
-                    Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                    </p>
+                <Col sm={12} md={12} lg={3} className='wow fadeIn spin-card' data-wow-delay='0.6s'>
+                <a href="/kurse">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h4>Selbstverteidigung</h4>
+                        <p className='grey-color'>
+                        Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        </p>  
+                    </div>
+                    <div class="flip-card-back">
+                        <h4>Zum Kurs</h4>
+                    </div>
+                    </div>
+                </div>
+                </a>
                 </Col>                
-                <Col sm={12} md={3} className='wow fadeIn' data-wow-delay='1.4s'>
-                    <h4>Boxen</h4>
-                    <p className='grey-color'>
-                    Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                    </p>
+                <Col sm={12} md={12} lg={3} className='wow fadeIn spin-card' data-wow-delay='0.9s'>
+                <a href="/kurse">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h4>Boxen</h4>
+                        <p className='grey-color'>
+                        Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        </p>  
+                    </div>
+                    <div class="flip-card-back">
+                        <h4>Zum Kurs</h4>
+                    </div>
+                    </div>
+                </div>
+                </a>
                 </Col>                
-                <Col sm={12} md={3} className='wow fadeIn' data-wow-delay='1.8s'>
-                    <h4>Kemetic Yoga</h4>
-                    <p className='grey-color'>
-                    Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                    </p>
+                <Col sm={12} md={12} lg={3} className='wow fadeIn spin-card' data-wow-delay='1.2s'>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h4>Kemetic Yoga</h4>
+                        <p className='grey-color'>
+                        Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        </p>  
+                    </div>
+                    <div class="flip-card-back">
+                        <h4>Coming Soon</h4>
+                    </div>
+                    </div>
+                </div>
                 </Col>
             </Row>
             </Container>

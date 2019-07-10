@@ -84,6 +84,7 @@ html{
     width: 32px !important;
 }
 .header-form{
+    border-radius: 5px;
     background-color: rgba(0,0,0,.4);
     color: white;
     padding: 35px 40px;
@@ -124,7 +125,10 @@ html{
 .header-content{
     padding-top: 20px;
 }
+
 .youtubePopup{
+    margin-top: 15px;
+    cursor: pointer;
     margin-left: 38%;
     display: flex;
     justify-content: center;
@@ -133,9 +137,10 @@ html{
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    transition: all .2s ease-out
 }
-.youtubePopup :hover{
-    cursor: pointer;
+.scaling :hover{
+    transform: scale(1.1) !important
 }
 .youtubePopup svg{
     margin-left: 10px;
@@ -167,4 +172,7 @@ iframe {
 
 .fixed-buttons{
     color: black !important
+}
+.header-form-subheading{
+    text-align: center;
 }

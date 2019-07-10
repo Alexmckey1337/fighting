@@ -1,7 +1,7 @@
 .footer-wrapper{
     padding-top: 50px !important;
     padding-bottom: 50px !important;
-    background-image: url(http://fighter.pcnerd.de/wp-content/uploads/2018/11/black-and-white-sport-fight-boxer.jpg?id=253) !important;
+    background-image: url(./img/bg.jpg) !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -80,4 +80,37 @@
 
 .socials a:hover{
     background-color: rgb(44, 43, 43) !important;
+}
+.appstoreandgplaywrapper{
+    display: flex;
+    margin-left: 95px;
+}
+.appStore{
+    margin-right: 10px;
+    background-image: url(./img/download-on-the-app-store-apple.svg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 255px;
+    height: 75px;
+}
+.gplayBadge{
+    margin-left: 10px;
+    background-image: url(./img/google-play-badge.svg) !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 255px;
+    height: 75px;
+}
+@media only screen and (max-width:766px){
+    .appstoreandgplaywrapper{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .gplayBadge{
+        margin:  5px 0px;
+    }
+    .appStore{
+        margin:  5px 0px;
+    }
 }

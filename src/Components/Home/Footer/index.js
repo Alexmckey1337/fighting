@@ -48,13 +48,17 @@ const Footer = () =>{
                 </Col>
             </Row>
         <Row className='copyrights-wrapper'>
-            <p className="copyright">Copyright &copy; 2018 - Fighter Academy. All Rights Reserved</p>
+            <div className="appstoreandgplaywrapper">
+                <a className='appStore' href="https://www.apple.com/ru/ios/app-store/" target='_blank'></a>
+                <a className='gplayBadge' href="https://play.google.com/store" target='_blank'></a>
+            </div>
             <div className="socials">
                 <a className="link-facebook" href="#0" target="_blank"><FontAwesomeIcon icon={faFacebook}/></a>
                 <a className="link-twitter" href="#0" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
                 <a className="link-instagram" href="#0" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
             </div>
-        </Row>   
+        </Row>
+        <Row className='copyrights-wrapper'><p className="copyright">Copyright &copy; 2018 - Fighter Academy. All Rights Reserved</p></Row>   
         </Container>
         </Container>
         </Fragment>

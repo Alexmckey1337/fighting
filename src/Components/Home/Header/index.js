@@ -30,6 +30,15 @@ class Header extends React.Component{
       componentWillUnmount() {
         window.removeEventListener('scroll', this.handleScroll);
       }
+      //Methods for button hover animation
+      onMouseHandle(){
+          const el = document.querySelectorAll('.youtubePopup')
+          el[0].style.transform = 'scale('+1.2+')'
+      }
+      onMouseLeave(){
+          const el = document.querySelectorAll('.youtubePopup')
+          el[0].style.transform = 'scale('+1.0+')' 
+      }
       handleScroll(){
           if(window.innerWidth>767){
           const el = document.getElementById('navbar')
@@ -95,7 +104,7 @@ class Header extends React.Component{
           <p className='grey-color'>Kickboxen / K3</p>
         </div>
       </Slider>
-        <div className='youtubePopup' onClick={this.handleShow}>
+        <div id='ytPopup' className='youtubePopup' onClick={this.handleShow} onMouseEnter={this.onMouseHandle} onMouseLeave={this.onMouseLeave}>
             <FontAwesomeIcon icon={faPlay} size='4x'/>
         </div>
             </Col>
@@ -111,7 +120,7 @@ class Header extends React.Component{
                         <p>Lerne jetzt alle Kampfsportarten und power dich richtig aus mit unseren Profitrainern.</p>
                     </li>
                 </ul>
-                <p>Jetzt zum Newsletter anmelden und eine <strong>gratis Traingseinheit</strong> erhalten.</p>
+                <p className='header-form-subheading'>Jetzt zum Newsletter anmelden und eine <strong>gratis Traingseinheit</strong> erhalten.</p>
                 <input type='text' placeholder='Vor- und Nachname*'/>
                 <input type='email' placeholder='E-Mail-Adresse*'/>
                 <input type="submit" value="" className='submit-button' value='Jetzt Trainieren'/>
