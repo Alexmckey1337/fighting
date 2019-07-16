@@ -65,6 +65,9 @@ html{
         right:8px !important;
         width: 100vw;
     }
+    .youtubePopup{
+        margin-left: 35% !important;
+    }
 }
 @media only screen and (min-width:767px){
     #navbar{
