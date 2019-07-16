@@ -87,11 +87,11 @@ class Features extends React.Component{
             <span class="separator"></span>
             <Row className='sports' noGutters='true'>
                 <Col sm={12} md={12} lg={3} className='wow fadeIn spin-card' data-wow-delay='0.3s'>
+                <h4 className='spin-card-heading'>Kickboxen / K1</h4>
                 <div class="flip-card">
                     <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <h4>Kickboxen / K1</h4>
-                        <p className='grey-color'>
+                        <p className='grey-color spin-card-subheading'>
                         Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
                         </p>  
                     </div>
@@ -102,45 +102,45 @@ class Features extends React.Component{
                 </div>
                 </Col>
                 <Col sm={12} md={12} lg={3} className='wow fadeIn spin-card' data-wow-delay='0.6s'>
-                <a href="/kurse">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <h4>Selbstverteidigung</h4>
-                        <p className='grey-color'>
+                <h4 className='spin-card-heading'>Selbstverteidigung</h4>
+                <div className="flip-card ">
+                    <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                        <p className='grey-color spin-card-subheading'>
                         Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
                         </p>  
                     </div>
                     <div class="flip-card-back">
-                        <h4>Zum Kurs</h4>
+                    <a href='/kurse' className='spin-card-button'>
+                        Zum Kurs
+                    </a>
                     </div>
                     </div>
                 </div>
-                </a>
                 </Col>                
                 <Col sm={12} md={12} lg={3} className='wow fadeIn spin-card' data-wow-delay='0.9s'>
-                <a href="/kurse">
+                <h4 className='spin-card-heading'>Boxen</h4>
                 <div class="flip-card">
                     <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <h4>Boxen</h4>
-                        <p className='grey-color'>
+                        <p className='grey-color spin-card-subheading'>
                         Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
                         </p>  
                     </div>
                     <div class="flip-card-back">
-                        <h4>Zum Kurs</h4>
+                    <a href='/kurse' className='spin-card-button'>
+                        Zum Kurs
+                    </a>
                     </div>
                     </div>
                 </div>
-                </a>
                 </Col>                
                 <Col sm={12} md={12} lg={3} className='wow fadeIn spin-card' data-wow-delay='1.2s'>
+                <h4 className='spin-card-heading'>Kemetic Yoga</h4>
                 <div class="flip-card">
                     <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <h4>Kemetic Yoga</h4>
-                        <p className='grey-color'>
+                        <p className='grey-color spin-card-subheading'>
                         Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
                         </p>  
                     </div>
