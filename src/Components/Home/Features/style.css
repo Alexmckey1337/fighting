@@ -33,7 +33,7 @@
         min-height: 120px;
     }
     .featuresWrapper .button-wrapper{
-        margin-top: 405px;
+        margin-top: 220px !important;
     }
 }
 }
@@ -118,14 +118,14 @@
         margin-bottom: 60px;
         
     }
-    .sports .spin-card:first-of-type{
-        margin-bottom: 60px;
-    }
-    .sports .spin-card:nth-of-type(1n+2){
+    .sports .spin-card{
         margin-bottom: 100px;
     }
     .sports .flip-card-back{
         min-height: 120px;
+    }
+    .featuresWrapper .button-wrapper{
+        margin-top: 150px;
     }
 }
 @media only screen and (min-width:767px){
@@ -265,4 +265,7 @@
   }
   .spin-card-button:hover{
       color: white;
+  }
+  .coming-soon{
+    color: #202020;
   }

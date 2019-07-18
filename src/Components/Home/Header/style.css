@@ -60,19 +60,29 @@ html{
     background-color: red;
     }
     .fixed-navbar{
-        background-color:rgba(255,0,0,.95) !important;
+        background-color:white(255,0,0,.95) !important;
         box-shadow:0px 1px 6px 0px rgba(0,0,0,.12);
         top :0px;
-        right:8px !important;
+        right: 25px !important;
         width: 100vw;
     }
     .youtubePopup{
         margin-left: 35% !important;
     }
+    .fixed-navbar .navbar-collapse{
+        background: white;
+    }
+    .fixed-navbar .navbar-toggler{
+        color: white;
+    }
+    .amelden{
+        padding-left: 50px !important;
+    }
 }
 @media only screen and (min-width:767px){
     #navbar{
         justify-content: center !important;
+        transition: top 0.3s;
     }
 }
 .top-slider-img{

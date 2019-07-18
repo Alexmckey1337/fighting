@@ -93,6 +93,8 @@ class Features extends React.Component{
                     <div class="flip-card-front">
                         <p className='grey-color spin-card-subheading'>
                         Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        <br />
+                        <p className='coming-soon d-md-none'>Coming Soon</p>
                         </p>  
                     </div>
                     <div class="flip-card-back">
@@ -150,6 +152,8 @@ class Features extends React.Component{
                     <div class="flip-card-front">
                         <p className='grey-color spin-card-subheading'>
                         Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        <br />
+                        <p className=' coming-soon d-md-none'>Coming Soon</p>
                         </p>  
                     </div>
                     <div class="flip-card-back">

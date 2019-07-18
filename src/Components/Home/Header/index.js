@@ -40,7 +40,6 @@ class Header extends React.Component{
           el[0].style.transform = 'scale('+1.0+')' 
       }
       handleScroll(){
-          if(window.innerWidth>767){
           const el = document.getElementById('navbar')
           const buttons = document.querySelectorAll('.nav-link')
           const logo = document.querySelector('.logotype')
@@ -58,7 +57,6 @@ class Header extends React.Component{
                 buttons[i].classList.remove('fixed-buttons')
               }
           }
-        }  
       }
       handleClose() {
         this.setState({ show: false });
@@ -75,12 +73,12 @@ class Header extends React.Component{
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-         arrows:false
+        arrows:false
     }    
     return(
     <YoutubeBackground videoId={"I_XpaxCVTfA"}>    
     <div className='header-wrapper'>
-        <Container className='navbar-wrapper'>
+        <Container className='navbar-wrapper' fluid='true'>
         <Navigation />
         </Container>
         <Container className='header-content'>
