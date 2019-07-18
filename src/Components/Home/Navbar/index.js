@@ -4,7 +4,7 @@ import whitelogo from '../Header/img/logo.png'
 const Navigation = () =>{
     return(
         <Fragment>
-            <Navbar id='navbar' expand = 'md'>
+            <Navbar id='navbar' expand = 'md' >
             <Navbar.Collapse>
             <Navbar.Brand href="#home"><img className='logotype' src={whitelogo} alt="logo" border="0" height='60px'/></Navbar.Brand>
             <Nav className="navigation">

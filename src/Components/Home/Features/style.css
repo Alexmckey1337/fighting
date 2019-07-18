@@ -11,7 +11,11 @@
   .flip-card .flip-card-back{
     min-height: 238px;
   }
-
+  @media only screen and (min-width:1200px) and (max-width:1999px){
+    .featuresWrapper .sports .flip-card-back{
+        min-height: 238px 
+    }
+}
   @media only screen and (max-width:766px){
     .sports{
         height: 100vh !important;
@@ -27,7 +31,6 @@
     }
     .sports .flip-card {
         margin-bottom: 60px;
-        
     }
     .sports .flip-card-back{
         min-height: 120px;
@@ -37,6 +40,15 @@
     }
 }
 }
+@media only screen and (min-width:320px) and (max-width:544px) {
+    .featuresWrapper .button-wrapper{
+        margin-top: 410px !important;
+    }
+     .sports .spin-card{
+        margin-bottom: 150px !important;
+    }
+}
+
 .heading-desc{
     text-align: center;
     font-family: Poppins, Arial, sans-serif;
@@ -136,8 +148,18 @@
         height: 200px;
         margin: 5px;
     }
+    .flip-card:hover .flip-card-inner {
+        -webkit-transform: rotateY(180deg);
+                transform: rotateY(180deg);
+      }
 }
+@media only screen and (min-width:768px) and (max-width:991px){
+  .flip-card-back{
+      min-height: 115px !important;
+  }
+} 
 @media only screen and (min-width:992px){
+
     .sports{
         display: -webkit-box;
         display: -ms-flexbox;
@@ -151,11 +173,15 @@
         margin: 0px 5px;
         height: 300px;
     }
-      /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-  }
+
+}
+@media only screen and (min-width:992px) and (max-width:1999px){
+    .sports .flip-card-back{
+        min-height: 286px
+    }
+    .featuresWrapper .button-wrapper{
+        margin-top: 110px !important;
+    }
 }
 .sports{
     

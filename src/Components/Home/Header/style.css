@@ -1,6 +1,9 @@
-html{
+html, body {
     overflow-x: hidden;
-}
+  }
+  body {
+    position: relative;
+  }
 .navbar-brand{
     margin-left: 1%;
     margin-right: auto;
