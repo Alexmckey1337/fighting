@@ -82,6 +82,7 @@
     background-color: rgb(44, 43, 43) !important;
 }
 .appstoreandgplaywrapper{
+    margin-top: 12px;
     display: flex;
     margin-left: 95px;
 }
@@ -89,17 +90,17 @@
     margin-right: 10px;
     background-image: url(./img/download-on-the-app-store-apple.svg) !important;
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 255px;
-    height: 75px;
+    background-size:contain;
+    width: 125px;
+    height: 40px;
 }
 .gplayBadge{
     margin-left: 10px;
     background-image: url(./img/google-play-badge.svg) !important;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 255px;
-    height: 75px;
+    width: 125px;
+    height: 40px;
 }
 @media only screen and (max-width:766px){
     .appstoreandgplaywrapper{

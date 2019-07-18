@@ -108,7 +108,11 @@ class Features extends React.Component{
                     <div className="flip-card-front">
                         <p className='grey-color spin-card-subheading'>
                         Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                        </p>  
+                        <br />
+                        <a href='/kurse' className='spin-card-button d-md-none'>
+                        Zum Kurs
+                        </a>
+                        </p>
                     </div>
                     <div class="flip-card-back">
                     <a href='/kurse' className='spin-card-button'>
@@ -125,7 +129,11 @@ class Features extends React.Component{
                     <div class="flip-card-front">
                         <p className='grey-color spin-card-subheading'>
                         Ich bin ein Textblock. Klicken Sie auf den Bearbeiten Button um diesen Text zu ändern. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                        </p>  
+                        <br />
+                        <a href='/kurse' className='spin-card-button d-md-none'>
+                        Zum Kurs
+                        </a>
+                        </p>
                     </div>
                     <div class="flip-card-back">
                     <a href='/kurse' className='spin-card-button'>
