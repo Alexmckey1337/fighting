@@ -24,7 +24,7 @@ html, body {
     z-index: 6;
 }
 .navbar-toggler {
-    margin-left:43%;
+    margin: 0 auto;
 }
 .navigation {
     padding: 40px 20px;
@@ -33,12 +33,15 @@ html, body {
 .header-content-wrapper-row{
     margin-bottom: 200px;
 }
-.nav-link{
-    color: white !important;
-    padding-left: 50px !important;
-    padding-right: 25px !important;
+.navbar-expand-md .navbar-nav .nav-link{
+    color: white ;
+    padding-left: 50px ;
+    padding-right: 25px ;
     font-size: 14px;
 
+}
+.navbar-expand-md .navbar-nav .amelden{
+    padding-left: 25px ;
 }
 .header-txt{
     padding-top: 80px; 
@@ -53,41 +56,9 @@ html, body {
     color: white !important;
     background-color: red;
     border-radius: 50px;
-    padding-left: 25px !important;
+    padding-left: 25px ;
 }
-@media only screen and (max-width:766px){
-    .navbar-wrapper{
-        padding: 0px !important;
-    }
-    .navbar-expand-md{
-    background-color: red;
-    }
-    .fixed-navbar{
-        background-color:white(255,0,0,.95) !important;
-        box-shadow:0px 1px 6px 0px rgba(0,0,0,.12);
-        top :0px;
-        
-        width: 100vw;
-    }
-    .youtubePopup{
-        margin-left: 35% !important;
-    }
-    .fixed-navbar .navbar-collapse{
-        background: white;
-    }
-    .fixed-navbar .navbar-toggler{
-        color: white;
-    }
-    .amelden{
-        padding-left: 50px !important;
-    }
-}
-@media only screen and (min-width:767px){
-    #navbar{
-        justify-content: center !important;
-        transition: top 0.3s;
-    }
-}
+
 .top-slider-img{
     height: 300px;
 }
@@ -192,4 +163,61 @@ iframe {
 }
 .header-form-subheading{
     text-align: center;
+}
+@media only screen and (max-width:766px){
+    .navbar-wrapper{
+        padding: 0px !important;
+    }
+    .navbar-expand-md{
+    background-color: white;
+    }
+    .fixed-navbar{
+        background-color:white(255,0,0,.95) !important;
+        box-shadow:0px 1px 6px 0px rgba(0,0,0,.12);
+        top :0px;
+        
+        width: 100vw;
+    }
+    .youtubePopup{
+        margin-left: 35% !important;
+    }
+    .fixed-navbar .navbar-collapse{
+        background: white;
+    }
+    .fixed-navbar .navbar-toggler{
+        color: white;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .amelden{
+        padding-left: 50px ;
+    }
+    .navigation{
+        padding: 20px 0
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        color: black;
+        padding-left: 0px ;
+        padding-right: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-nav .amelden{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100px;
+        margin: 0 auto;
+    }
+    .navbar-brand {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:767px){
+    #navbar{
+        justify-content: center !important;
+        transition: top 0.3s;
+    }
 }
