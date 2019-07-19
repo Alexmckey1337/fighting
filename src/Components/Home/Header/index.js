@@ -57,7 +57,12 @@ class Header extends React.Component{
                 buttons[i].classList.remove('fixed-buttons')
               }
           }
-      }
+          if(window.screen.availWidth<767){
+            console.log('fire')
+          const logo = document.querySelector('.logotype')
+          logo.src = blacklogo
+        }
+    }
       handleClose() {
         this.setState({ show: false });
       }
