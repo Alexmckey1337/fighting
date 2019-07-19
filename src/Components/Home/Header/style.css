@@ -165,12 +165,24 @@ iframe {
     text-align: center;
 }
 .innerToggle{
- display: block;
-margin: 0 auto;
+    
+    display: block;
+    margin: 0 auto;
 }
 .outerToggle{
     display: block;
     margin: 0 auto;
+}
+@-moz-document url-prefix(){
+    .innerToggle{
+    
+        display: block;
+        margin: 0 auto;
+    }
+    .outerToggle{
+        display: block;
+        margin: 0 auto;
+    }  
 }
 @media only screen and (max-width:766px){
     .navbar-wrapper{
