@@ -10,17 +10,10 @@ class Navigation extends React.Component{
         }
         window.addEventListener('resize',this.resizeHandle)
     }
-
-    mobileChangeImg(){
-
-    }
-
     resizeHandle(){
         if(window.screen.width > 767){
-            console.log('bigger than md')
             document.querySelector('.logotype').src = whitelogo
         }else{
-            console.log('smalller than 767')
             document.querySelector('.logotype').src = blacklogo
         }
     }
