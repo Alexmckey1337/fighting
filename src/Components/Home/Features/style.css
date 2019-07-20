@@ -7,45 +7,15 @@
 .featuresWrapper h2 strong{
     color: red;
 }
-@-moz-document url-prefix() { 
-  .flip-card .flip-card-back{
-    min-height: 238px;
-  }
-  @media only screen and (min-width:1200px) and (max-width:1999px){
-    .featuresWrapper .sports .flip-card-back{
-        min-height: 238px 
-    }
-}
-  @media only screen and (max-width:766px){
-    .sports{
-        height: 100vh !important;
-        margin-bottom: 64px;
-    }
-    .spin-card{
-        margin-bottom: 50px;
-    }
-    .sports .spin-card-subheading{
-        padding-bottom: 0px;
-        padding-top: 0px;
-        height: auto;
-    }
-    .sports .flip-card {
-        margin-bottom: 60px;
-    }
-    .sports .flip-card-back{
-        min-height: 120px;
-    }
-    .featuresWrapper .button-wrapper{
-        margin-top: 220px !important;
-    }
-}
-}
 @media only screen and (min-width:320px) and (max-width:544px) {
     .featuresWrapper .button-wrapper{
-        margin-top: 410px !important;
+        margin-top: 40px ;
     }
      .sports .spin-card{
         margin-bottom: 150px !important;
+    }
+    .featuresWrapper .button-wrapper a{
+        font-size: 0.75em
     }
 }
 
@@ -118,7 +88,6 @@
 }
 @media only screen and (max-width:766px){
     .sports{
-        height: 100vh !important;
         margin-bottom: 64px;
     }
     .sports .spin-card-subheading{
@@ -127,7 +96,7 @@
         height: auto;
     }
     .sports .flip-card {
-        margin-bottom: 60px;
+        margin-bottom: 70px;
         
     }
     .sports .spin-card{
@@ -137,7 +106,7 @@
         min-height: 120px;
     }
     .featuresWrapper .button-wrapper{
-        margin-top: 150px;
+        
     }
 }
 @media only screen and (min-width:767px){
@@ -147,6 +116,7 @@
     .sports .spin-card{
         height: 200px;
         margin: 5px;
+        margin-bottom: 20px;
     }
     .flip-card:hover .flip-card-inner {
         -webkit-transform: rotateY(180deg);
@@ -175,12 +145,12 @@
     }
 
 }
-@media only screen and (min-width:992px) and (max-width:1999px){
+@media only screen and (min-width:992px) and (max-width:1200px){
     .sports .flip-card-back{
         min-height: 286px
     }
     .featuresWrapper .button-wrapper{
-        margin-top: 110px !important;
+       margin-top:110px;
     }
 }
 .sports{
